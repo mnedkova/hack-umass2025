@@ -17,7 +17,7 @@ export default function FolderStack() {
         {folders.map((f, i) => (
           <Link
             key={f.label}
-            to={f.link}
+            to={'http://220demo.s3-website.us-east-2.amazonaws.com/'}
             className="absolute w-full transition-transform duration-200 hover:scale-[1.01]"
             style={{
               top: `${i * SPACING}px`, // Each folder positioned with consistent spacing

@@ -42,9 +42,8 @@ export default function Sidebar() {
         {["CICS110", "CICS160", "CICS210", "CICS220", "CICS230"].map((c) => (
           <Link
             key={c}
-            to={`/${c}`}
             className="hover:bg-gray-700 rounded p-2"
-            onClick={() => setIsOpen(false)} // Close sidebar on link click
+            onClick={() => window.open('http://220demo.s3-website.us-east-2.amazonaws.com/', '_blank')}
           >
             {c}
           </Link>
